@@ -8,10 +8,4 @@
 
   # host<->user provides
   den.ctx.user.includes = [ den._.mutual-provider ];
-
-  # User TODO: REMOVE THIS
-  den.aspects.tux.nixos = {
-    boot.loader.grub.enable = false;
-    fileSystems."/".device = "/dev/fake";
-  };
 }

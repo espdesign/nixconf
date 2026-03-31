@@ -16,10 +16,10 @@ nix flake update den
 
 ```console
 # default action is build
-nix run .#igloo
+nix run .#framework
 
 # pass any other nh action
-nix run .#igloo -- switch
+nix run .#framework -- switch
 ```
 
 - Run the VM
