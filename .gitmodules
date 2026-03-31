@@ -1,0 +1,3 @@
+[submodule "den"]
+	path = den
+	url = https://github.com/vic/den.git
